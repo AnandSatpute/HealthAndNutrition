@@ -1,4 +1,4 @@
-# Notes — Content Roadmap
+# NutritionAndHealth — Content Roadmap
 
 ## ✅ Completed
 
@@ -11,26 +11,15 @@
 | `macronutrients/` | Carbohydrates (types, GI, fibre), Proteins (complete vs incomplete, digestibility), Dietary Fats (saturated, unsaturated, trans), Water (requirements, electrolyte balance) |
 | `antioxidants/` | Glutathione, CoQ10, Resveratrol, Lycopene, Lutein, Zeaxanthin, Beta-carotene, Polyphenols, Flavonoids (all 6 subclasses) |
 | `phytonutrients/` | Carotenoids, Flavonoids, Glucosinolates, Phytosterols |
+| `gut_health/` | Probiotics: *Lactobacillus*, *Bifidobacterium* · Prebiotics: Inulin, FOS, Pectin · Gut-brain axis |
+| `performance/` | Creatine, Beta-alanine, Caffeine, L-Carnitine · Pre/intra/post-workout nutrition |
+
+| `deficiency_index.md` | Symptom → likely deficiency lookup table (by body system) |
+| `food_sources_index.md` | Food → nutrients provided (reverse lookup, with bioavailability notes) |
+| `interactions.md` | Nutrient synergies & antagonisms, drug–nutrient interactions, timing guide |
 
 ---
 
-## 🗺️ Planned Topics
+## ✅ Roadmap Complete
 
-### 6. 🦠 Probiotics & Prebiotics (`gut_health/`)
-- Key probiotic strains (*Lactobacillus*, *Bifidobacterium*)
-- Prebiotic fibers: Inulin, FOS, Pectin
-- Gut-brain axis
-
-### 7. 🏃 Sports & Performance Nutrition (`performance/`)
-- Creatine, Beta-alanine, Caffeine, L-Carnitine
-- Pre/intra/post-workout nutrition
-
----
-
-## 📑 Cross-Cutting Index Documents
-
-| Document | Description |
-|---|---|
-| `deficiency_index.md` | Symptom → likely deficiency lookup table |
-| `food_sources_index.md` | Food → nutrients provided (reverse lookup) |
-| `interactions.md` | Nutrient synergies and antagonisms (e.g., Vit C + Iron, Ca vs Zn) |
+All planned topics and cross-cutting index documents have been created.
