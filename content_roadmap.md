@@ -13,6 +13,7 @@
 | `phytonutrients/` | Carotenoids, Flavonoids, Glucosinolates, Phytosterols |
 | `gut_health/` | Probiotics: *Lactobacillus*, *Bifidobacterium* · Prebiotics: Inulin, FOS, Pectin · Gut-brain axis |
 | `performance/` | Creatine, Beta-alanine, Caffeine, L-Carnitine · Pre/intra/post-workout nutrition |
+| `detox_pathways/` | Overview · Phase I (CYP450 biotransformation) · Phase II (Glucuronidation, Sulfation, Glutathione conjugation, Methylation, Acetylation, Amino acid conjugation) · Phase III (ABC transporters, biliary & renal excretion) · Methylation (one-carbon cycle, MTHFR, SAM) · Glutathione pathway (Nrf2, GST, GPx) · Sulfation (SULT enzymes, PAPS) · Glucuronidation (UGT enzymes, EHC) · Heavy metal detox (Hg, Pb, As, Cd, chelation) · Gut microbiome detox (β-glucuronidase, TMAO, bile acids, SCFAs) · Liver support nutrients |
 
 | `deficiency_index.md` | Symptom → likely deficiency lookup table (by body system) |
 | `food_sources_index.md` | Food → nutrients provided (reverse lookup, with bioavailability notes) |
