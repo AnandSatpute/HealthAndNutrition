@@ -9,14 +9,11 @@
 | `amino_acids/` | 9 essential (Histidine, Isoleucine, Leucine, Lysine, Methionine, Phenylalanine, Threonine, Tryptophan, Valine) + 7 conditionally essential (Arginine, Cysteine, Glutamine, Glycine, Proline, Serine, Tyrosine) |
 | `fatty_acids/` | Omega-3: ALA, EPA, DHA · Omega-6: Linoleic Acid, Arachidonic Acid · Omega-9: Oleic Acid |
 | `macronutrients/` | Carbohydrates (types, GI, fibre), Proteins (complete vs incomplete, digestibility), Dietary Fats (saturated, unsaturated, trans), Water (requirements, electrolyte balance) |
+| `antioxidants/` | Glutathione, CoQ10, Resveratrol, Lycopene, Lutein, Zeaxanthin, Beta-carotene, Polyphenols, Flavonoids (all 6 subclasses) |
 
 ---
 
 ## 🗺️ Planned Topics
-
-### 4. 🔬 Antioxidants (`antioxidants/`)
-- Glutathione, CoQ10, Resveratrol, Lycopene, Lutein, Zeaxanthin, Beta-carotene
-- Polyphenols and Flavonoids
 
 ### 5. 🧬 Phytonutrients (`phytonutrients/`)
 - Carotenoids, Flavonoids, Glucosinolates, Phytosterols
