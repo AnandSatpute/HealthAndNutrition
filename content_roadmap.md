@@ -10,14 +10,11 @@
 | `fatty_acids/` | Omega-3: ALA, EPA, DHA · Omega-6: Linoleic Acid, Arachidonic Acid · Omega-9: Oleic Acid |
 | `macronutrients/` | Carbohydrates (types, GI, fibre), Proteins (complete vs incomplete, digestibility), Dietary Fats (saturated, unsaturated, trans), Water (requirements, electrolyte balance) |
 | `antioxidants/` | Glutathione, CoQ10, Resveratrol, Lycopene, Lutein, Zeaxanthin, Beta-carotene, Polyphenols, Flavonoids (all 6 subclasses) |
+| `phytonutrients/` | Carotenoids, Flavonoids, Glucosinolates, Phytosterols |
 
 ---
 
 ## 🗺️ Planned Topics
-
-### 5. 🧬 Phytonutrients (`phytonutrients/`)
-- Carotenoids, Flavonoids, Glucosinolates, Phytosterols
-- Roles in disease prevention
 
 ### 6. 🦠 Probiotics & Prebiotics (`gut_health/`)
 - Key probiotic strains (*Lactobacillus*, *Bifidobacterium*)
