@@ -212,6 +212,79 @@ MAOIs + serotonergic drugs = potentially fatal:
 
 ---
 
+## 🚨 Effects of Nutritional Deficiencies on MAO
+
+MAO-A and MAO-B each carry **FAD covalently bound** to the enzyme protein. Unlike enzymes with loosely-bound cofactors that can be immediately replenished, MAO activity depends on **de-novo enzyme synthesis** incorporating FAD — meaning riboflavin (B2) deficiency has sustained, not easily reversible, effects on MAO activity.
+
+### Summary Table
+
+| Deficient Nutrient | Effect on MAO | Downstream Consequences |
+|---|---|---|
+| **Riboflavin (B2 / FAD)** | ↓ FAD → ↓ MAO-A + ↓ MAO-B enzyme activity | ↑ Serotonin, NE, Dopamine half-life; ↑ β-PEA; ↑ tyramine sensitivity |
+| **Niacin (B3 / NAD⁺)** | ↓ ALDH activity → toxic aldehyde accumulation | DOPAL accumulates → α-synuclein aggregation; 5-HIAL and GLYALD build up → neurotoxicity |
+| **Iron (Fe²⁺)** | Indirect — MAO-A/B are not themselves iron-enzymes, but iron deficiency ↓ mitochondrial ETC → impaired MAO (mitochondria-bound) | Blunted overall mitochondrial function; altered monoamine homeostasis |
+| **Copper (Cu²⁺)** | DAO (distinct from MAO) impaired; indirect effect on redox environment | ↑ Peripheral histamine; altered oxidative state affecting MAO microenvironment |
+| **Folate / B12 / B2 (SAM pathway)** | Reduced COMT activity → shifts substrate load onto MAO | MAO becomes the sole catecholamine disposal route → overloaded, depleting FAD faster |
+| **Protein / Tryptophan** | Not a direct cofactor; ↓ serotonin synthesis shifts balance | Less substrate for MAO-A; serotonin economy disturbed upstream of MAO |
+
+### Individual Deficiency Detail
+
+#### 🟠 Riboflavin (B2) Deficiency — Primary and Most Critical
+
+Riboflavin is the **rate-limiting nutrient** for MAO function:
+
+- FAD is covalently attached to a histidine residue in both MAO-A and MAO-B. When cells are riboflavin-deficient, newly synthesised MAO apoenzyme cannot acquire FAD and is functionally inactive or degraded.
+- Unlike non-covalent FAD enzymes, **repletion of B2 requires new protein synthesis** — the effect persists until the body turns over existing enzyme stock (days to weeks).
+- **MAO-A implications**: Serotonin and NE accumulate → paradoxically, B2 deficiency mimics a mild MAOI effect. This may transiently elevate mood but eventually disrupts serotonin rhythm, sleep architecture, and autonomic tone.
+- **MAO-B implications**: Dopamine accumulates; β-PEA (phenylethylamine) surges. β-PEA has a half-life of seconds under normal MAO-B — deficiency allows it to linger, producing brief amphetamine-like effects and potentially anxiety or perceptual disturbances.
+- **Tyramine risk (dietary)**: Even without MAOI drugs, severe B2 deficiency reduces MAO-A in the gut wall and liver → reduced first-pass tyramine metabolism → ↑ tyramine systemic absorption → ↑ blood pressure risk after tyramine-rich meals.
+- **Who is at risk**: Vegans (B2 is highest in dairy, meat, eggs), alcoholics (poor absorption + increased demand), women on oral contraceptives (B2 depletion), MTHFR C677T homozygotes (higher FAD demand), RLS patients using riboflavin-depleting drugs, and the elderly.
+
+#### 🟡 Niacin (B3 / NAD⁺) Deficiency — Toxic Aldehyde Crisis
+
+MAO generates **toxic aldehydes** as intermediate products:
+- **DOPAL** (from dopamine) — highly reactive; covalently cross-links α-synuclein → oligomer formation → Lewy bodies
+- **5-HIAL** (from serotonin) — reacts with proteins and DNA
+- **MOPEGAL** (from 3-MT) — reactive aldehyde
+
+These are normally instantly detoxified by **ALDH (aldehyde dehydrogenase)**, which requires **NAD⁺**. Niacin deficiency → ↓ NAD⁺ → ↓ ALDH → DOPAL and 5-HIAL accumulate.
+
+| Aldehyde | Source | Consequence of Accumulation |
+|---|---|---|
+| **DOPAL** | Dopamine via MAO-B | α-Synuclein aggregation, mitochondrial toxicity, dopaminergic cell death (Parkinson's pathomechanism) |
+| **5-HIAL** | Serotonin via MAO-A | Protein adducts, possible neurodegeneration |
+| **DHPGAL** | NE via MAO-A | Adrenergic neuron stress |
+
+> This is a compelling reason why **pellagra** (niacin deficiency) presents with neuropsychiatric symptoms (dementia, psychosis) — not just dermatitis and diarrhoea. DOPAL-mediated dopaminergic damage may contribute.
+
+**Alcohol + MAO + Niacin deficiency** is a particularly destructive triad: alcohol upregulates MAO-B (↑ DOPAL generation) while simultaneously depleting NAD⁺ via the ALDH/ADH detox load → DOPAL accumulates → accelerated dopaminergic neurodegeneration.
+
+#### 🔵 Iron Deficiency — Indirect Mitochondrial Effect
+
+- MAO is embedded in the **outer mitochondrial membrane** and, while not an iron enzyme itself, relies on the mitochondrial environment (membrane potential, electron transport capacity) for normal function.
+- Severe iron deficiency impairs the electron transport chain → altered mitochondrial membrane dynamics → reduced MAO integration and activity.
+- More importantly, iron deficiency severely ↓ **tyrosine hydroxylase** (TH) → ↓ dopamine synthesis → MAO-B has less substrate; but simultaneously monoamine clearance may also be impaired, creating an unpredictable altered monoamine state.
+- Iron deficiency anaemia is strongly associated with **restless legs syndrome** — a dopamine circuit disorder that reflects both impaired synthesis and altered MAO/COMT catabolism.
+
+#### ⚪ Combined SAM/Methylation Deficiency → MAO Overload
+
+When **COMT is impaired** (B12, folate, Mg, B2 deficiency — see COMT.md), catecholamines that should be methylated now flow almost entirely through the **MAO pathway**:
+- MAO-B handles more dopamine → more DOPAL generated → higher ALDH demand (needs NAD⁺/B3)
+- If NAD⁺ is also borderline → DOPAL accumulates
+- Combined COMT + MAO impairment (from B2 and Mg + B12/folate deficiency together) = severely impaired catecholamine disposal from both routes simultaneously
+
+### Combined Deficiency Scenarios
+
+| Scenario | Nutrients Impaired | MAO Status | Clinical Picture |
+|---|---|---|---|
+| **Vegan + low B2 + no supplements** | B2 (riboflavin), B12 | ↓ MAO-A + ↓ MAO-B | Monoamine rhythm disruption, sleep disturbance, tyramine sensitivity |
+| **Alcoholism** | B2, B3, B1, Mg | ↓ MAO-A/B acutely; ↑ MAO-B chronically | DOPAL accumulation → neurodegeneration; psychiatric instability |
+| **Pellagra / severe B3 deficiency** | NAD⁺ | MAO runs but ALDH fails | DOPAL crisis → Parkinson's-like neurodegeneration; psychosis |
+| **Elderly + low protein + low B2** | B2, methionine | ↓ MAO-A + ↓ COMT | Catecholamine excess, hypertension, cognitive decline |
+| **MAOA 3R + B2 deficiency** | B2 (on already-low activity gene) | Near-zero MAO-A | Very elevated serotonin + NE → impulsivity, sleep loss, aggression risk |
+
+---
+
 ## 🧠 Neurological & Psychiatric Relevance
 
 | Condition | MAO Connection |

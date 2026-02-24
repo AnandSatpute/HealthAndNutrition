@@ -118,6 +118,67 @@ Mg²⁺ is required in the **COMT active site** — it coordinates the SAM methy
 
 ---
 
+## 🚨 Effects of Nutritional Deficiencies on COMT
+
+Since COMT depends entirely on **SAM** (methyl donor) and **Mg²⁺** (active site metal), deficiencies in the nutrients that feed these two inputs have cascading effects on catecholamine and oestrogen clearance.
+
+### Summary Table
+
+| Deficient Nutrient | Effect on COMT | Downstream Consequences |
+|---|---|---|
+| **Folate (B9 / 5-MTHF)** | ↓ SAM regeneration → ↓ COMT activity | ↑ Dopamine, NE, EPI · ↑ Catechol-oestrogens → genotoxic quinones |
+| **Vitamin B12 (methylcobalamin)** | ↓ Methionine synthase activity → ↓ SAM | Same as folate deficiency; elevated homocysteine |
+| **Riboflavin (B2 / FAD)** | ↓ MTHFR activity → ↓ active folate → ↓ SAM | Cascade ↓ COMT; also impairs MAO (double catecholamine burden) |
+| **Magnesium (Mg²⁺)** | Direct loss of active site metal → ↓ enzyme catalysis | ↑ Catecholamines even with adequate SAM (enzyme cannot bind substrate) |
+| **Methionine** | ↓ SAM precursor → ↓ COMT | Generalised methylation failure across all methyltransferases |
+| **Choline** | ↓ Betaine → ↓ BHMT → ↓ SAM backup | Worsens methylation when folate/B12 are borderline |
+| **Zinc (Zn²⁺)** | Indirect — ↓ PEMT → ↓ phosphatidylcholine → ↓ membrane fluidity for MB-COMT | Reduced membrane-bound COMT activity |
+
+### Individual Deficiency Detail
+
+#### 🟡 Folate Deficiency
+- MTHFR cannot produce 5-MTHF → methionine synthase (MTR) stalls → homocysteine accumulates → methionine and SAM drop.
+- With ↓ SAM, COMT cannot transfer methyl groups → dopamine, NE, EPI accumulate in the synapse and periphery.
+- **Oestrogen risk**: 4-OHE2 is not methylated → 4-OHE2-o-quinones form → DNA adducts → ↑ breast/endometrial cancer risk.
+- **Neuropsychiatric signs**: hyper-dopaminergic state → agitation, anxiety, insomnia, hypertension; in Met/Met individuals (already slow COMT) this is dramatically amplified.
+- Elevated homocysteine itself is injurious: endothelial dysfunction, thrombosis, neurodegeneration.
+
+#### 🔴 Vitamin B12 Deficiency
+- MTR (methionine synthase) requires methylcobalamin → B12 deficiency causes identical SAM depletion to folate deficiency.
+- Unlike folate deficiency, B12 deficiency also causes **methylmalonic acid (MMA) accumulation** → mitochondrial toxicity, demyelination.
+- COMT impairment from B12 deficiency thus overlaps with neurological damage: poor catecholamine clearance *plus* nerve damage.
+- Common in vegans, elderly (poor intrinsic factor), and MTRR SNP carriers.
+
+#### 🟠 Riboflavin (B2) Deficiency
+- FAD is required by MTHFR (the enzyme that activates folate). B2 deficiency → ↓ MTHFR activity → ↓ 5-MTHF → ↓ SAM → ↓ COMT.
+- B2 deficiency *simultaneously* impairs MAO-A and MAO-B (FAD is their direct cofactor).
+- **Double hit**: both oxidative and methylation catecholamine disposal fail → large spike in synaptic dopamine, serotonin, and NE.
+- B2 deficiency is underappreciated — subclinical in migraine patients, alcoholics, and MTHFR C677T homozygotes (who have higher FAD demand).
+
+#### 🔵 Magnesium Deficiency
+- Mg²⁺ is physically required in the COMT catalytic site for methyl transfer. Even with abundant SAM, COMT cannot function without Mg.
+- Modern diet provides ~250 mg/day versus the RDA of 310–420 mg — chronic subclinical deficiency is common.
+- **Stress connection**: cortisol directly causes renal Mg wasting → chronic stress → chronic Mg loss → chronic COMT impairment → elevated catecholamines → worsening anxiety/stress → more cortisol. This is a self-reinforcing cycle.
+- Alcohol, caffeine, and high sugar intake further deplete Mg.
+- **Signs**: hypertension, palpitations, anxiety, muscle cramps, insomnia — all consistent with catecholamine excess from impaired COMT.
+
+#### ⚪ Methionine Deficiency
+- SAM is synthesised directly from methionine + ATP. Low dietary methionine (rare in omnivores, possible in very low-protein diets) reduces SAM synthesis at the source.
+- Generalised methylation failure: COMT, HNMT, ASMT (melatonin), DNMT (DNA methylation) all impaired simultaneously.
+- Combined methionine + B12 + folate deficiency represents the most severe methylation collapse.
+
+### Combined Deficiency Scenarios
+
+| Scenario | Nutrients Impaired | COMT Status | Clinical Picture |
+|---|---|---|---|
+| **Veganism without supplementation** | B12 (often), possibly B2, methionine | ↓↓ COMT | Elevated homocysteine, anxiety, poor oestrogen clearance |
+| **Chronic stress / alcoholism** | Mg (wasted), B2, folate | ↓↓↓ COMT | Hypertension, catecholamine excess, sleep failure |
+| **MTHFR C677T + low B2** | Folate activation, SAM | ↓↓ COMT | Amplified psychiatric risk, elevated 4-OHE2 |
+| **Elderly / poor diet** | B12, Mg, folate | ↓↓ COMT | Cognitive decline, Alzheimer's risk, hypertension |
+| **Met/Met genotype + any of above** | SAM or Mg | Near-zero COMT | Severe anxiety, pain, oestrogen dominance |
+
+---
+
 ## 🛡️ Oestrogen Detoxification Role
 
 COMT methylates **catechol-oestrogens**, which are oxidised forms of oestrogen that can bind DNA and generate reactive quinones:
