@@ -1,15 +1,21 @@
 site_name: Nutrition & Health Reference
-site_description: A comprehensive reference on vitamins, minerals, amino acids, neurotransmitters, and more.
+site_description: A comprehensive reference on vitamins, minerals, amino acids, neurotransmitters,
+  and more.
 site_author: Anand
+site_url: https://AnandSatpute.github.io/HealthAndNutrition/
 docs_dir: ../
 site_dir: ../site
-exclude_docs: |
-  .git/
+exclude_docs: '.git/
+
   .vscode/
+
   .venv/
+
   site/
+
   mkdocs/
 
+  '
 theme:
   name: material
   palette:
@@ -38,10 +44,8 @@ theme:
     - search.suggest
     - content.code.copy
     - toc.integrate
-
 plugins:
   - search
-
 markdown_extensions:
   - tables
   - admonition
@@ -55,131 +59,135 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
-
 nav:
   - Home: index.md
   - Roadmap: content_roadmap.md
-  - Reference Indices:
-    - Deficiency Index: deficiency_index.md
-    - Food Sources: food_sources_index.md
-    - Interactions: interactions.md
-  - Vitamins:
-    - Vitamin A: vitamins/vitamin_a.md
-    - Vitamin B1 (Thiamine): vitamins/vitamin_b1.md
-    - Vitamin B2 (Riboflavin): vitamins/vitamin_b2.md
-    - Vitamin B3 (Niacin): vitamins/vitamin_b3.md
-    - Vitamin B5 (Pantothenate): vitamins/vitamin_b5.md
-    - Vitamin B6 (Pyridoxine): vitamins/vitamin_b6.md
-    - Vitamin B7 (Biotin): vitamins/vitamin_b7.md
-    - Vitamin B9 (Folate): vitamins/vitamin_b9.md
-    - Vitamin B12 (Cobalamin): vitamins/vitamin_b12.md
-    - Vitamin C: vitamins/vitamin_c.md
-    - Vitamin D: vitamins/vitamin_d.md
-    - Vitamin E: vitamins/vitamin_e.md
-    - Vitamin K: vitamins/vitamin_k.md
-  - Minerals:
-    - Calcium: minerals/calcium.md
-    - Chloride: minerals/chloride.md
-    - Chromium: minerals/chromium.md
-    - Copper: minerals/copper.md
-    - Fluoride: minerals/fluoride.md
-    - Iodine: minerals/iodine.md
-    - Iron: minerals/iron.md
-    - Magnesium: minerals/magnesium.md
-    - Manganese: minerals/manganese.md
-    - Molybdenum: minerals/molybdenum.md
-    - Phosphorus: minerals/phosphorus.md
-    - Potassium: minerals/potassium.md
-    - Selenium: minerals/selenium.md
-    - Sodium: minerals/sodium.md
-    - Sulfur: minerals/sulfur.md
-    - Zinc: minerals/zinc.md
-  - Amino Acids:
-    - Arginine: amino_acids/arginine.md
-    - Cysteine: amino_acids/cysteine.md
-    - Glutamine: amino_acids/glutamine.md
-    - Glycine: amino_acids/glycine.md
-    - Histidine: amino_acids/histidine.md
-    - Isoleucine: amino_acids/isoleucine.md
-    - Leucine: amino_acids/leucine.md
-    - Lysine: amino_acids/lysine.md
-    - Methionine: amino_acids/methionine.md
-    - Phenylalanine: amino_acids/phenylalanine.md
-    - Proline: amino_acids/proline.md
-    - Serine: amino_acids/serine.md
-    - Threonine: amino_acids/threonine.md
-    - Tryptophan: amino_acids/tryptophan.md
-    - Tyrosine: amino_acids/tyrosine.md
-    - Valine: amino_acids/valine.md
-  - Neurotransmitters:
-    - Overview: neurotransmitters/overview.md
-    - Acetylcholine: neurotransmitters/acetylcholine.md
-    - Dopamine: neurotransmitters/dopamine.md
-    - Endorphins & Enkephalins: neurotransmitters/endorphins_enkephalins.md
-    - GABA: neurotransmitters/gaba.md
-    - Glutamate: neurotransmitters/glutamate.md
-    - Histamine: neurotransmitters/histamine.md
-    - Melatonin: neurotransmitters/melatonin.md
-    - Norepinephrine & Epinephrine: neurotransmitters/norepinephrine_epinephrine.md
-    - Serotonin: neurotransmitters/serotonin.md
-    - Cofactors Master Reference: neurotransmitters/cofactors_summary.md
-  - Antioxidants:
-    - Beta-Carotene: antioxidants/beta_carotene.md
-    - CoQ10: antioxidants/coq10.md
-    - Flavonoids: antioxidants/flavonoids.md
-    - Glutathione: antioxidants/glutathione.md
-    - Lutein: antioxidants/lutein.md
-    - Lycopene: antioxidants/lycopene.md
-    - Polyphenols: antioxidants/polyphenols.md
-    - Resveratrol: antioxidants/resveratrol.md
-    - Zeaxanthin: antioxidants/zeaxanthin.md
-  - Fatty Acids:
-    - ALA (Alpha-Linolenic): fatty_acids/ala.md
-    - Arachidonic Acid: fatty_acids/arachidonic_acid.md
-    - DHA: fatty_acids/dha.md
-    - EPA: fatty_acids/epa.md
-    - Linoleic Acid: fatty_acids/linoleic_acid.md
-    - Oleic Acid: fatty_acids/oleic_acid.md
-  - Gut Health:
-    - Bifidobacterium: gut_health/bifidobacterium.md
-    - Gut-Brain Axis: gut_health/gut_brain_axis.md
-    - Lactobacillus: gut_health/lactobacillus.md
-    - Prebiotic Fibers: gut_health/prebiotic_fibers.md
-  - Phytonutrients:
-    - Carotenoids: phytonutrients/carotenoids.md
-    - Flavonoids: phytonutrients/flavonoids.md
-    - Glucosinolates: phytonutrients/glucosinolates.md
-    - Phytosterols: phytonutrients/phytosterols.md
-  - Macronutrients:
-    - Carbohydrates: macronutrients/carbohydrates.md
-    - Dietary Fats: macronutrients/dietary_fats.md
-    - Proteins: macronutrients/proteins.md
-    - Water: macronutrients/water.md
-  - Performance & Sports:
-    - Beta-Alanine: performance/beta_alanine.md
-    - Caffeine: performance/caffeine.md
-    - Creatine: performance/creatine.md
-    - L-Carnitine: performance/l_carnitine.md
-    - Workout Nutrition: performance/workout_nutrition.md
-  - Detox Pathways:
-    - Overview: detox_pathways/overview.md
-    - Phase 1 – Biotransformation: detox_pathways/phase_1_biotransformation.md
-    - Phase 2 – Conjugation: detox_pathways/phase_2_conjugation.md
-    - Phase 3 – Transport: detox_pathways/phase_3_transport.md
-    - Glucuronidation: detox_pathways/glucuronidation.md
-    - Glutathione Pathway: detox_pathways/glutathione_pathway.md
-    - Gut Microbiome Detox: detox_pathways/gut_microbiome_detox.md
-    - Heavy Metal Detox: detox_pathways/heavy_metal_detox.md
-    - Liver Support Nutrients: detox_pathways/liver_support_nutrients.md
-    - Methylation: detox_pathways/methylation.md
-    - Sulfation: detox_pathways/sulfation.md
-  - Deep Dives:
-    - COMT: misc/COMT.md
-    - MAO: misc/MAO.md
-    - Krebs Cycle: misc/krebs_cycle.md
-    - Methylation: misc/methylation.md
-  - Neuroscience & Cognitive:
-    - Neuroplasticity: neuroscience/neuroplasticity.md
-    - HPA Axis: neuroscience/hpa_axis.md
-    - Sleep Architecture: neuroscience/sleep_architecture.md
-    - Kynurenine Pathway: neuroscience/kynurenine_pathway.md
+  - Nutrients:
+      - Vitamins:
+          - Vitamin A: vitamins/vitamin_a.md
+          - Vitamin B1 (Thiamine): vitamins/vitamin_b1.md
+          - Vitamin B2 (Riboflavin): vitamins/vitamin_b2.md
+          - Vitamin B3 (Niacin): vitamins/vitamin_b3.md
+          - Vitamin B5 (Pantothenate): vitamins/vitamin_b5.md
+          - Vitamin B6 (Pyridoxine): vitamins/vitamin_b6.md
+          - Vitamin B7 (Biotin): vitamins/vitamin_b7.md
+          - Vitamin B9 (Folate): vitamins/vitamin_b9.md
+          - Vitamin B12 (Cobalamin): vitamins/vitamin_b12.md
+          - Vitamin C: vitamins/vitamin_c.md
+          - Vitamin D: vitamins/vitamin_d.md
+          - Vitamin E: vitamins/vitamin_e.md
+          - Vitamin K: vitamins/vitamin_k.md
+      - Minerals:
+          - Calcium: minerals/calcium.md
+          - Chloride: minerals/chloride.md
+          - Chromium: minerals/chromium.md
+          - Copper: minerals/copper.md
+          - Fluoride: minerals/fluoride.md
+          - Iodine: minerals/iodine.md
+          - Iron: minerals/iron.md
+          - Magnesium: minerals/magnesium.md
+          - Manganese: minerals/manganese.md
+          - Molybdenum: minerals/molybdenum.md
+          - Phosphorus: minerals/phosphorus.md
+          - Potassium: minerals/potassium.md
+          - Selenium: minerals/selenium.md
+          - Sodium: minerals/sodium.md
+          - Sulfur: minerals/sulfur.md
+          - Zinc: minerals/zinc.md
+      - Amino Acids:
+          - Arginine: amino_acids/arginine.md
+          - Cysteine: amino_acids/cysteine.md
+          - Glutamine: amino_acids/glutamine.md
+          - Glycine: amino_acids/glycine.md
+          - Histidine: amino_acids/histidine.md
+          - Isoleucine: amino_acids/isoleucine.md
+          - Leucine: amino_acids/leucine.md
+          - Lysine: amino_acids/lysine.md
+          - Methionine: amino_acids/methionine.md
+          - Phenylalanine: amino_acids/phenylalanine.md
+          - Proline: amino_acids/proline.md
+          - Serine: amino_acids/serine.md
+          - Threonine: amino_acids/threonine.md
+          - Tryptophan: amino_acids/tryptophan.md
+          - Tyrosine: amino_acids/tyrosine.md
+          - Valine: amino_acids/valine.md
+      - Fatty Acids:
+          - ALA (Alpha-Linolenic): fatty_acids/ala.md
+          - Arachidonic Acid: fatty_acids/arachidonic_acid.md
+          - DHA: fatty_acids/dha.md
+          - EPA: fatty_acids/epa.md
+          - Linoleic Acid: fatty_acids/linoleic_acid.md
+          - Oleic Acid: fatty_acids/oleic_acid.md
+      - Macronutrients:
+          - Carbohydrates: macronutrients/carbohydrates.md
+          - Dietary Fats: macronutrients/dietary_fats.md
+          - Proteins: macronutrients/proteins.md
+          - Water: macronutrients/water.md
+  - Biocompounds & Gut Health:
+      - Antioxidants:
+          - Beta-Carotene: antioxidants/beta_carotene.md
+          - CoQ10: antioxidants/coq10.md
+          - Flavonoids: antioxidants/flavonoids.md
+          - Glutathione: antioxidants/glutathione.md
+          - Lutein: antioxidants/lutein.md
+          - Lycopene: antioxidants/lycopene.md
+          - Polyphenols: antioxidants/polyphenols.md
+          - Resveratrol: antioxidants/resveratrol.md
+          - Zeaxanthin: antioxidants/zeaxanthin.md
+      - Gut Health:
+          - Bifidobacterium: gut_health/bifidobacterium.md
+          - Gut-Brain Axis: gut_health/gut_brain_axis.md
+          - Lactobacillus: gut_health/lactobacillus.md
+          - Prebiotic Fibers: gut_health/prebiotic_fibers.md
+      - Phytonutrients:
+          - Carotenoids: phytonutrients/carotenoids.md
+          - Flavonoids: phytonutrients/flavonoids.md
+          - Glucosinolates: phytonutrients/glucosinolates.md
+          - Phytosterols: phytonutrients/phytosterols.md
+  - Systems & Pathways:
+      - Neurotransmitters:
+          - Overview: neurotransmitters/overview.md
+          - Acetylcholine: neurotransmitters/acetylcholine.md
+          - Dopamine: neurotransmitters/dopamine.md
+          - Endorphins & Enkephalins: neurotransmitters/endorphins_enkephalins.md
+          - GABA: neurotransmitters/gaba.md
+          - Glutamate: neurotransmitters/glutamate.md
+          - Histamine: neurotransmitters/histamine.md
+          - Melatonin: neurotransmitters/melatonin.md
+          - Norepinephrine & Epinephrine: neurotransmitters/norepinephrine_epinephrine.md
+          - Serotonin: neurotransmitters/serotonin.md
+          - Cofactors Master Reference: neurotransmitters/cofactors_summary.md
+      - Detox Pathways:
+          - Overview: detox_pathways/overview.md
+          - Phase 1 – Biotransformation: detox_pathways/phase_1_biotransformation.md
+          - Phase 2 – Conjugation: detox_pathways/phase_2_conjugation.md
+          - Phase 3 – Transport: detox_pathways/phase_3_transport.md
+          - Glucuronidation: detox_pathways/glucuronidation.md
+          - Glutathione Pathway: detox_pathways/glutathione_pathway.md
+          - Gut Microbiome Detox: detox_pathways/gut_microbiome_detox.md
+          - Heavy Metal Detox: detox_pathways/heavy_metal_detox.md
+          - Liver Support Nutrients: detox_pathways/liver_support_nutrients.md
+          - Methylation: detox_pathways/methylation.md
+          - Sulfation: detox_pathways/sulfation.md
+      - Neuroscience & Cognitive:
+          - Neuroplasticity: neuroscience/neuroplasticity.md
+          - HPA Axis: neuroscience/hpa_axis.md
+          - Sleep Architecture: neuroscience/sleep_architecture.md
+          - Kynurenine Pathway: neuroscience/kynurenine_pathway.md
+  - Performance & Misc:
+      - Performance & Sports:
+          - Beta-Alanine: performance/beta_alanine.md
+          - Caffeine: performance/caffeine.md
+          - Creatine: performance/creatine.md
+          - L-Carnitine: performance/l_carnitine.md
+          - Workout Nutrition: performance/workout_nutrition.md
+      - Deep Dives:
+          - COMT: misc/COMT.md
+          - MAO: misc/MAO.md
+          - Krebs Cycle: misc/krebs_cycle.md
+          - Methylation: misc/methylation.md
+  - Reference:
+      - Reference Indices:
+          - Deficiency Index: deficiency_index.md
+          - Food Sources: food_sources_index.md
+          - Interactions: interactions.md
