@@ -46,6 +46,7 @@ Folate requires conversion to its active metabolic form by **dihydrofolate reduc
 - Folic acid → Dihydrofolate (DHF) → Tetrahydrofolate (THF) → 5,10-methyleneTHF → **5-methylTHF (5-MTHF)** [the main circulating form]
 
 Key co-factors in folate metabolism:
+
 | Cofactor | Role |
 |---|---|
 | **Vitamin B12** | Required by methionine synthase to accept methyl group from 5-MTHF → regenerates THF |
