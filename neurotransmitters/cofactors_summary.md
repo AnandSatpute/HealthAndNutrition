@@ -119,6 +119,100 @@ This document provides a unified reference table for every vitamin, mineral, and
 
 ---
 
+## BH4 (Tetrahydrobiopterin) — Detailed Reference
+
+### What Is BH4?
+
+BH4 is a **pteridine cofactor** synthesised endogenously from **GTP**. It is the essential electron donor for the aromatic amino acid hydroxylases — the rate-limiting enzymes in catecholamine and indoleamine synthesis — and for all three nitric oxide synthase (NOS) isoforms.
+
+### Role in Neurotransmitter Synthesis
+
+| Enzyme | Reaction | NT Produced |
+|---|---|---|
+| **Tryptophan hydroxylase (TPH1/2)** | Tryptophan → 5-HTP | Serotonin (→ Melatonin) |
+| **Tyrosine hydroxylase (TH)** | Tyrosine → L-DOPA | Dopamine, NE, EPI |
+| **Phenylalanine hydroxylase (PAH)** | Phenylalanine → Tyrosine | Precursor supply for TH step |
+| **Nitric oxide synthase (eNOS, nNOS, iNOS)** | L-Arg → Nitric oxide | Vascular + neuronal signalling |
+
+> **Note:** BH4 is consumed (oxidised to BH2) during each catalytic cycle and must be continuously regenerated.
+
+### BH4 Synthesis Pathway
+
+```
+GTP
+ │
+ ▼  GCH1 (GTP cyclohydrolase 1) ← rate-limiting step
+ │
+7,8-Dihydroneopterin triphosphate
+ │
+ ▼  PTPS (6-pyruvoyltetrahydropterin synthase)
+ │
+6-Pyruvoyltetrahydropterin
+ │
+ ▼  SR (sepiapterin reductase) + NADPH
+ │
+BH4 ◄──────────────────── active cofactor
+```
+
+### BH4 Recycling Pathway
+
+BH4 is oxidised to **quinonoid-BH2 (q-BH2)** during hydroxylase reactions, then recycled:
+
+```
+BH4 ──[TPH / TH / PAH]──► q-BH2 (quinonoid BH2)
+                                │
+                                ▼  DHPR (dihydropteridine reductase) + NADH
+                               BH4  ◄── recycled
+
+BH2 (oxidised, lost pool) ──► BH4  via  DHFR (dihydrofolate reductase) + NADPH
+                                        ↑
+                                   Requires active folate (5-MTHF / B9)
+```
+
+### Cofactors Required for BH4 Function
+
+| Cofactor / Nutrient | Role |
+|---|---|
+| **GTP** | Primary substrate for BH4 de-novo synthesis (GCH1 step) |
+| **NADPH** | Electron donor for sepiapterin reductase (SR) and DHFR |
+| **NADH** | Electron donor for DHPR (recycling of q-BH2 → BH4) |
+| **Folate (5-MTHF / B9)** | Required by DHFR to convert BH2 → BH4; MTHFR deficiency impairs this |
+| **Riboflavin (B2 / FAD)** | MTHFR requires FAD; FAD depletion reduces folate-mediated BH4 recycling |
+| **Vitamin C (Ascorbate)** | Protects BH4 from oxidative degradation; stabilises the active pool |
+| **Iron (Fe²⁺)** | Non-haem iron is a cofactor for TPH and TH (alongside BH4) |
+
+### What Depletes BH4?
+
+| Factor | Mechanism |
+|---|---|
+| **Oxidative stress** | ROS oxidise BH4 directly → BH2 accumulation; uncouples NOS |
+| **Folate / B9 deficiency** | Impairs DHFR-mediated BH2 → BH4 recycling |
+| **B2 / FAD deficiency** | Reduces MTHFR activity → less 5-MTHF → less DHFR substrate |
+| **MTHFR polymorphisms (C677T)** | Reduced MTHFR efficiency → folate insufficiency → ↓ BH4 recycling |
+| **GCH1 mutations** | Rare; directly impairs de-novo BH4 synthesis (Dopa-responsive dystonia) |
+| **Inflammation / cytokines** | Upregulate IDO (tryptophan → kynurenine), divert substrate away from serotonin; also promote BH4 oxidation |
+
+### Clinical Consequences of BH4 Deficiency
+
+| System | Effect |
+|---|---|
+| **Serotonin** | ↓ TPH activity → ↓ 5-HT → depression, anxiety, poor sleep |
+| **Dopamine** | ↓ TH activity → ↓ L-DOPA → dopamine/NE/EPI collapse |
+| **Nitric oxide** | NOS uncoupling → superoxide production instead of NO → endothelial dysfunction |
+| **PKU** | BH4 deficiency (or unresponsiveness) → phenylalanine accumulation → neurotoxicity |
+| **Dopa-responsive dystonia** | GCH1 mutations → severe BH4 deficiency → movement disorder responsive to L-DOPA |
+
+### Therapeutic / Supplementation Notes
+
+- **Sapropterin (Kuvan)** — synthetic BH4; FDA-approved for BH4-responsive PKU
+- **Folate + B12** — first-line indirect support; ensure DHFR/MTHFR adequacy
+- **Riboflavin (B2)** — improves folate recycling; especially important in MTHFR C677T carriers
+- **Vitamin C** — antioxidant preservation of BH4 pool; 500–1000 mg/day commonly used adjunctively
+- **NAC / Glutathione precursors** — reduce oxidative BH4 depletion
+- **5-MTHF (methylfolate)** — bypasses MTHFR; preferred over folic acid when BH4 recycling is a concern
+
+---
+
 ## Pathway Interaction Map
 
 ```
@@ -158,3 +252,4 @@ POMC/Proenkephalin ──► [PC1/PC2: Ca, Zn] ──► Endorphins/Enkephalins
 | Chronic pain + poor exercise tolerance | Low endorphins | Zinc, Vit C, protein, exercise |
 | Restless legs + impulse control | Low DA (iron-related) | Iron assessment, Mg, B6 |
 | Hypertension + anxiety + panic | Excess NE/EPI | Mg, relaxation; COMT support (B12, folate) |
+| Low serotonin + low dopamine simultaneously | ↓ BH4 (upstream of both TPH & TH) | 5-MTHF, B2, Vit C, NAC; rule out MTHFR C677T |

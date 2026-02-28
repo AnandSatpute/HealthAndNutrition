@@ -51,7 +51,7 @@ Key co-factors in folate metabolism:
 | **Vitamin B12** | Required by methionine synthase to accept methyl group from 5-MTHF → regenerates THF |
 | **Vitamin B6** | Metabolises homocysteine to cysteine (cystathionine pathway) |
 | **NADPH** | Required by DHFR for folate reduction |
-| **Zinc** | Supports DHFR activity |
+| **Zinc** | Essential cofactor for folate conjugase (GCPII) in the gut, required for the absorption of dietary polyglutamates |
 
 > ⚠️ **Methylenetetrahydrofolate Reductase (MTHFR) genetic variants** (especially C677T) reduce conversion efficiency, increasing cardiovascular risk and NTD risk. Supplementation with 5-MTHF (pre-methylated form) bypasses this step.
 
@@ -130,7 +130,7 @@ Key co-factors in folate metabolism:
 | Food | Serving | Folate (mcg DFE) |
 |---|---|---|
 | Beef liver (cooked) | 85g | ~215 mcg |
-| Spinach (cooked) | 90g | ~263 mcg |
+| Spinach (cooked) | 180g (1 cup) | ~263 mcg |
 | Black-eyed peas (cooked) | 180g | ~358 mcg |
 | Asparagus (cooked) | 4 spears | ~89 mcg |
 | Brussels sprouts (cooked) | 90g | ~78 mcg |
