@@ -21,6 +21,53 @@
 
 ---
 
-## ✅ Roadmap Complete
+## 🔜 Planned
 
-All planned topics and cross-cutting index documents have been created.
+### Neuroscience & Cognitive
+| Folder / File | Contents |
+|---|---|
+| `neuroscience/neuroplasticity.md` | BDNF, LTP, NMDA-dependent plasticity; nutrients upregulating BDNF (omega-3, Mg, zinc, curcumin) |
+| `neuroscience/hpa_axis.md` | Cortisol, ACTH, CRH; stress → B5/B6/Mg/zinc depletion; adrenal recovery |
+| `neuroscience/sleep_architecture.md` | Adenosine, circadian rhythm, melatonin; nutrients affecting each sleep stage |
+| `neuroscience/kynurenine_pathway.md` | Tryptophan diversion under inflammation; IDO/TDO; quinolinic acid neurotoxicity; depression link |
+
+### Inflammation & Immune
+| Folder / File | Contents |
+|---|---|
+| `inflammation/eicosanoids.md` | Prostaglandins, leukotrienes, thromboxanes; COX/LOX enzymes; omega-3 vs omega-6 balance |
+| `inflammation/cytokines_immunity.md` | IL-6, TNF-α, NF-κB; modulation by vitamin D, zinc, selenium |
+| `inflammation/mast_cell_histamine.md` | MCAS, histamine overload, low-histamine diet; ties to DAO/HNMT content |
+
+### Genetics & Biochemistry
+| Folder / File | Contents |
+|---|---|
+| `genetics/snps_nutrigenomics.md` | MTHFR, COMT, MAO-A, VDR, APOE; how variants change nutritional requirements |
+| `genetics/mitochondria_energy.md` | ETC complexes I–V; CoQ10, NAD⁺/NADH, mitophagy; nutrients per complex (B2, B3, lipoic acid, Fe, Cu) |
+| `genetics/insulin_mtor.md` | Chromium, vanadium, leucine; mTOR vs AMPK; caloric restriction mimetics |
+
+### Organ & System-Specific
+| Folder / File | Contents |
+|---|---|
+| `systems/bone_connective_tissue.md` | Collagen synthesis (Vit C, Proline, Glycine, Cu); osteocalcin (K2, D); Ca-Mg-P balance |
+| `systems/thyroid_axis.md` | T4→T3 conversion (Se, Zn, Fe); iodine; thyroid-gut link; stress/fasting effects on T3 |
+| `systems/liver_physiology.md` | Fatty liver (choline, inositol, betaine); bile production; cholesterol synthesis |
+
+### Clinical & Applied
+| Folder / File | Contents |
+|---|---|
+| `clinical/therapeutic_protocols.md` | Condition-specific nutrient stacks: depression, anxiety, ADHD, insomnia |
+| `clinical/lab_biomarkers.md` | What to test and interpret: homocysteine, ferritin, 25-OH D, MMA, TMAO, organic acids |
+| `clinical/fasting_metabolic.md` | Ketogenesis, beta-hydroxybutyrate signalling, autophagy, refeeding syndrome |
+
+### Adaptogens & Botanicals
+| Folder / File | Contents |
+|---|---|
+| `botanicals/adaptogens.md` | Ashwagandha (HPA), Rhodiola (MAO inhibition), Panax ginseng (cortisol/fatigue); mechanisms |
+| `botanicals/medicinal_mushrooms.md` | Lion's Mane (NGF/BDNF), Reishi (immune), Cordyceps (mitochondria) |
+
+### Cross-Cutting Indexes
+| File | Contents |
+|---|---|
+| `bioavailability_guide.md` | Nutrient forms ranked by absorption (e.g. Mg glycinate > oxide; methylfolate > folic acid) |
+| `timing_and_stacking.md` | When to take what, with what, and why; extends `interactions.md` |
+| `conditions_index.md` | Condition → relevant nutrient protocols (ADHD, depression, autoimmune, IBS, etc.) |
