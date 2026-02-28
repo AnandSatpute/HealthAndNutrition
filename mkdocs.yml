@@ -3,8 +3,8 @@ site_description: A comprehensive reference on vitamins, minerals, amino acids, 
   and more.
 site_author: Anand
 site_url: https://AnandSatpute.github.io/HealthAndNutrition/
-docs_dir: ../
-site_dir: ../site
+docs_dir: docs/
+site_dir: site
 exclude_docs: '.git/
 
   .vscode/
