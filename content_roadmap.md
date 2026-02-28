@@ -14,6 +14,7 @@
 | `gut_health/` | Probiotics: *Lactobacillus*, *Bifidobacterium* · Prebiotics: Inulin, FOS, Pectin · Gut-brain axis |
 | `performance/` | Creatine, Beta-alanine, Caffeine, L-Carnitine · Pre/intra/post-workout nutrition |
 | `detox_pathways/` | Overview · Phase I (CYP450 biotransformation) · Phase II (Glucuronidation, Sulfation, Glutathione conjugation, Methylation, Acetylation, Amino acid conjugation) · Phase III (ABC transporters, biliary & renal excretion) · Methylation (one-carbon cycle, MTHFR, SAM) · Glutathione pathway (Nrf2, GST, GPx) · Sulfation (SULT enzymes, PAPS) · Glucuronidation (UGT enzymes, EHC) · Heavy metal detox (Hg, Pb, As, Cd, chelation) · Gut microbiome detox (β-glucuronidase, TMAO, bile acids, SCFAs) · Liver support nutrients |
+| `neuroscience/` | Neuroplasticity (BDNF, LTP, NMDA, nutrients) · HPA Axis (cortisol, ACTH, CRH, stress nutrient depletion, adrenal recovery) · Sleep Architecture (adenosine, circadian rhythm, melatonin, nutrients per sleep stage) · Kynurenine Pathway (tryptophan diversion, IDO/TDO, QUIN neurotoxicity, depression link) |
 
 | `deficiency_index.md` | Symptom → likely deficiency lookup table (by body system) |
 | `food_sources_index.md` | Food → nutrients provided (reverse lookup, with bioavailability notes) |
@@ -23,13 +24,6 @@
 
 ## 🔜 Planned
 
-### Neuroscience & Cognitive
-| Folder / File | Contents |
-|---|---|
-| `neuroscience/neuroplasticity.md` | BDNF, LTP, NMDA-dependent plasticity; nutrients upregulating BDNF (omega-3, Mg, zinc, curcumin) |
-| `neuroscience/hpa_axis.md` | Cortisol, ACTH, CRH; stress → B5/B6/Mg/zinc depletion; adrenal recovery |
-| `neuroscience/sleep_architecture.md` | Adenosine, circadian rhythm, melatonin; nutrients affecting each sleep stage |
-| `neuroscience/kynurenine_pathway.md` | Tryptophan diversion under inflammation; IDO/TDO; quinolinic acid neurotoxicity; depression link |
 
 ### Inflammation & Immune
 | Folder / File | Contents |

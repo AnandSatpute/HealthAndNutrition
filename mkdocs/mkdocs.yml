@@ -178,3 +178,8 @@ nav:
     - MAO: misc/MAO.md
     - Krebs Cycle: misc/krebs_cycle.md
     - Methylation: misc/methylation.md
+  - Neuroscience & Cognitive:
+    - Neuroplasticity: neuroscience/neuroplasticity.md
+    - HPA Axis: neuroscience/hpa_axis.md
+    - Sleep Architecture: neuroscience/sleep_architecture.md
+    - Kynurenine Pathway: neuroscience/kynurenine_pathway.md
